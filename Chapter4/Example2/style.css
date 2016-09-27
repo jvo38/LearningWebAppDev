@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
 }
@@ -35,23 +35,23 @@ main {
 }
 
 
-.comment-input {
+.comment-input-1, .comment-input-2 {
   float: left;
   width: 285px;
 }
 
-.comment-input p {
+.comment-input-1 p, .comment-input-2 p {
   margin-bottom: 10px;
 }
 
-.comment-input input {
+.comment-input-1 input, .comment-input-2 input {
   width: 80%;
   height: 30px;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.comment-input button {
+.comment-input-1 button, .comment-input-2 button {
   font-weight: bold;
   padding: 3px;
   border-radius: 5px;
@@ -73,16 +73,32 @@ main {
   border-radius: 5px;
 }
 
-.comments p:nth-child(even) {
-    background: lavender;
-}
-
-.comments p:nth-child(odd) {
-    background: gainsboro;
-}
-
 footer {
     font-size: smaller;
     margin-top: 5px;
     clear: both;
+}
+
+.user-1_comment-1 
+{
+    color: black;
+    background: red;
+}
+
+.user-1_comment-2 
+{
+    color: black;
+    background: lightblue;
+}
+
+.user-2_comment-1 
+{
+    color: black;
+    background: green;
+}
+
+.user-2_comment-2 
+{
+    color: black;
+    background: yellow;
 }
