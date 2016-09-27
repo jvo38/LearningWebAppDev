@@ -1,52 +1,70 @@
-body {
-  background: #f9e933;
+body
+{
+  background: Darkseagreen;
 }
 
-header, main, footer {
+header, main, footer
+{
   min-width: 855px;
 }
 
-header .container, main .container, footer .container {
+header .container, main .container, footer .container
+{
   max-width: 855px;
   margin: auto;
 }
 
-header {
+header
+{
+  background: white;
+  overflow: hidden;
+}
+
+header h1
+{
+  float: left;
+  width: 570px;
+  font-size: 4em;
+}
+
+header nav
+{
+  float: right;
+  width: 285px;
+  padding: 40px 0px 0px 0px;
+}
+
+main
+{
   background: white;
   overflow: auto;
 }
 
-header h1 {
+main .left
+{
   float: left;
   width: 570px;
+  padding: 70px 0px 0px 0px;
+  font-size: x-large;
+  font-family: 'Yatra One', cursive;
 }
 
-header nav {
-  float: right;
+main .right
+{
+  float:right;
   width: 285px;
 }
 
-main {
-  background: white;
-  overflow: auto;
-}
-
-main .left {
+footer .left
+{
   float: left;
   width: 570px;
+  padding: 40px 0px 0px 0px;
 }
 
-main .right {
+footer .sitemap
+{
   float: right;
   width: 285px;
-}
-
-footer .left {
-  float: left;
-  width: 570px;
-}
-
-footer .sitemap {
-  float: right;
-  width: 285px;
+  padding: 40px 0px 0px 0px;
 }
